@@ -1,0 +1,16 @@
+.heading {
+	/* color: hsl(233, 13%, 49%); */
+	color: hsl(234, 14%, 74%);
+	margin-top: 45px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.switch_Container {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+.switch_Container span {
+	height: fit-content;
+}

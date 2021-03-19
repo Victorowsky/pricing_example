@@ -1,0 +1,99 @@
+.priceTab,
+.priceTab_Purple {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	align-items: center;
+	box-shadow: 0 0 10px hsla(234, 14%, 74%, 0.75);
+	border-radius: 10px;
+	padding: 20px 10px;
+	color: hsl(232, 13%, 33%);
+	background-color: #fff;
+}
+.priceTab_Purple {
+	padding: 50px 0;
+	color: white;
+	background: rgb(163, 168, 240);
+	background: linear-gradient(
+		180deg,
+		rgba(163, 168, 240, 1) 0%,
+		rgba(105, 111, 221, 1) 100%
+	);
+}
+.type,
+.type_Purple {
+	font-size: 21px;
+	padding: 15px;
+	color: #75788b;
+}
+.type_Purple {
+	color: white;
+}
+.price {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 70px;
+	gap: 5px;
+	margin-bottom: 20px;
+}
+.dollar {
+	font-size: 45px;
+}
+.option,
+.option_Purple {
+	color: #75788b;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	width: 90%;
+	border-top: 1px solid hsla(234, 14%, 74%, 0.5);
+}
+.option_Purple {
+	color: white;
+}
+
+.last_option {
+	border-bottom: 1px solid hsla(234, 14%, 74%, 0.5);
+}
+.learn_Button,
+.learn_Button_Purple {
+	background: rgb(163, 168, 240);
+	background: linear-gradient(
+		90deg,
+		rgba(163, 168, 240, 1) 0%,
+		rgba(105, 111, 221, 1) 100%
+	);
+	width: 90%;
+	height: 50px;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	color: white;
+	font-size: 15px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.learn_Button:hover {
+	border: 1px solid #75788b;
+	background: white;
+	color: rgba(105, 111, 221, 1);
+}
+.learn_Button_Purple:hover {
+	background: transparent;
+	border: 1px solid white;
+	color: white;
+}
+.learn_Button_Purple {
+	background: white;
+	color: rgba(105, 111, 221, 1);
+}
+
+@media (max-width: 500px) {
+	.priceTab {
+		margin: 0 20px;
+	}
+}
